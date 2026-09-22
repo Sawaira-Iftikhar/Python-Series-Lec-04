@@ -22,3 +22,12 @@
 # 1. Empty dictionary
 empty_dict = {}
 print(empty_dict, type(empty_dict))
+
+# 2. Dictionary representing a user
+user = {
+    "username": "ali_dev",
+    "age": 22,
+    "is_active": True
+}
+
+print(user, type(user))
