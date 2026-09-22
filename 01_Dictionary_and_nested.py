@@ -71,3 +71,7 @@ book["price"] = 500
 # 3. Add a new key "pages"
 
 book["pages"] = 464
+
+# 4. Print the final dictionary
+
+print("Updated Book:", book)
