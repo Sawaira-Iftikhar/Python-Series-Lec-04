@@ -123,3 +123,6 @@ classroom = {
         "marks": 94
     }
 }
+
+# 1. Print the entire dictionary
+print("Classroom:", classroom)
