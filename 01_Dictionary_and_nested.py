@@ -31,3 +31,8 @@ user = {
 }
 
 print(user, type(user))
+
+# 3. Dictionary using dict() constructor
+
+student = dict(name= "Ali", age= 22, course= "Python")
+print(student, type(student))
