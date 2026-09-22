@@ -177,3 +177,14 @@ print("Updated Dev:", developer)
 #     b) Change Sarah's phone to "555-9999"
 #     c) Print the updated contact sub-dictionary
 
+company = {
+    "it_dept": {
+        "lead": {
+            "name": "Sarah",
+            "contact": {
+                "email": "sarah@tech.com",
+                "phone": "555-0199"
+            }
+        }
+    }
+}
