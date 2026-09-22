@@ -86,3 +86,6 @@ print("Updated Book:", book)
 #     c) Check if 300 is in rates using 'in' (Does 'in' search keys or values?)
 
 rates = {"USD": 278, "EUR": 300, "USD": 282, "GBP": 350}
+
+# 1. Print rates
+print("Rates:", rates)
