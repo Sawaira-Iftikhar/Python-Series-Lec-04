@@ -35,4 +35,12 @@ print(user, type(user))
 # 3. Dictionary using dict() constructor
 
 student = dict(name= "Ali", age= 22, course= "Python")
+
 print(student, type(student))
+
+# 4. Dictionary from a list of 2-item tuples
+
+countries = [("pk", "Pakistan"), ("us", "USA")]
+country_dict = dict(countries)
+
+print(country_dict, type(country_dict))
