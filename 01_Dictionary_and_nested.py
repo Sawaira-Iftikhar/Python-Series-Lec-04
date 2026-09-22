@@ -18,3 +18,7 @@
 #     b) A dictionary representing a user: "username", "age", "is_active"
 #     c) A dictionary created using the dict() constructor
 #     d) A dictionary created from a list of 2-item tuples: [("pk", "Pakistan"), ("us", "USA")]
+
+# 1. Empty dictionary
+empty_dict = {}
+print(empty_dict, type(empty_dict))
