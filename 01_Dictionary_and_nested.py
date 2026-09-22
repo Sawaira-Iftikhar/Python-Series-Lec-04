@@ -126,3 +126,6 @@ classroom = {
 
 # 1. Print the entire dictionary
 print("Classroom:", classroom)
+
+# 2. Access and print Hamza's marks
+print("Hamza's Marks:", classroom["std1"]["marks"])
