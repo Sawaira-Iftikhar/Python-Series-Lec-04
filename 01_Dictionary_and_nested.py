@@ -67,3 +67,7 @@ print("Title:", book["title"])
 # 2. Update the price
 
 book["price"] = 500
+
+# 3. Add a new key "pages"
+
+book["pages"] = 464
