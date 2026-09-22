@@ -46,3 +46,10 @@ country_dict = dict(countries)
 print(country_dict, type(country_dict))
 
 #-----------------------------------------------------------------------------------------
+
+# Q2. ACCESSING & MODIFYING:
+#     Given: book = {"title": "Clean Code", "author": "Robert Martin", "price": 450}
+#     a) Access and print the title using square brackets []
+#     b) Update the price to 500
+#     c) Add a new key "pages" with value 464
+#     d) Print the final dictionary
