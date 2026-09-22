@@ -195,3 +195,6 @@ print("Email:", company["it_dept"]["lead"]["contact"]["email"])
 
 # 2. Change Sarah's phone
 company["it_dept"]["lead"]["contact"]["phone"] = "555-9999"
+
+# 3. Print the updated contact sub-dictionary
+print("Updated Contact:", company["it_dept"]["lead"]["contact"])
