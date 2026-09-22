@@ -151,3 +151,6 @@ developer = {
     "skills": ["Python", "JavaScript", "SQL"],
     "experience_years": 3
 }
+
+# 1. Print the second skill
+print("Second skill:", developer["skills"][1])
