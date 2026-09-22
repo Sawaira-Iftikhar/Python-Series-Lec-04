@@ -96,3 +96,5 @@ print("Rates:", rates)
 # 2. Check if "USD" is in rates
 print("'USD' in rates:", "USD" in rates)
 
+# 3. Check if 300 is in rates
+print("300 in rates:", 300 in rates)
