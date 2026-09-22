@@ -154,3 +154,6 @@ developer = {
 
 # 1. Print the second skill
 print("Second skill:", developer["skills"][1])
+
+# 2. Append "Docker" to the skills list
+developer["skills"].append("Docker")
