@@ -188,3 +188,7 @@ company = {
         }
     }
 }
+
+
+# 1. Print Sarah's email
+print("Email:", company["it_dept"]["lead"]["contact"]["email"])
