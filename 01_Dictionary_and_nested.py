@@ -112,3 +112,14 @@ print("300 in rates:", 300 in rates)
 #     a) Print the entire dictionary
 #     b) Access and print Hamza's marks
 #     c) Access and print Ayesha's name
+
+classroom = {
+    "std1": {
+        "name": "Hamza",
+        "marks": 88
+    },
+    "std2": {
+        "name": "Ayesha",
+        "marks": 94
+    }
+}
