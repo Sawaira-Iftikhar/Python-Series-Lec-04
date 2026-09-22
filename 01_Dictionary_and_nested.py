@@ -89,3 +89,10 @@ rates = {"USD": 278, "EUR": 300, "USD": 282, "GBP": 350}
 
 # 1. Print rates
 print("Rates:", rates)
+
+# The second "USD" replaces the first "USD" value.
+# "USD": 278 is replaced by "USD": 282.
+
+# 2. Check if "USD" is in rates
+print("'USD' in rates:", "USD" in rates)
+
