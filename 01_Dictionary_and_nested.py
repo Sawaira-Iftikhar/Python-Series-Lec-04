@@ -209,3 +209,12 @@ print("Updated Contact:", company["it_dept"]["lead"]["contact"])
 #     a) Add "doctor_2": {"name": "Dr. Hina", "specialty": "Dermatology", "room": 201}
 #     b) Delete the "room" key from doctor_1 using del
 #     c) Print the final hospital dictionary
+
+
+hospital = {
+    "doctor_1": {
+        "name": "Dr. Farooq",
+        "specialty": "Cardiology",
+        "room": 104
+    }
+}
