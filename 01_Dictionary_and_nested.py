@@ -53,3 +53,9 @@ print(country_dict, type(country_dict))
 #     b) Update the price to 500
 #     c) Add a new key "pages" with value 464
 #     d) Print the final dictionary
+
+book = {
+    "title": "Clean Code",
+    "author": "Robert Martin",
+    "price": 450
+}
