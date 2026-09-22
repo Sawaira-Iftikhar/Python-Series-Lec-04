@@ -77,3 +77,11 @@ book["pages"] = 464
 print("Updated Book:", book)
 
 #-----------------------------------------------------------------------------------------
+
+# Q3. DUPLICATE KEYS & MEMBERSHIP:
+#     Given:
+#     rates = {"USD": 278, "EUR": 300, "USD": 282, "GBP": 350}
+#     a) Print rates and explain what happened to the first "USD"
+#     b) Check if "USD" is in rates using 'in'
+#     c) Check if 300 is in rates using 'in' (Does 'in' search keys or values?)
+
