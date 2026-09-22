@@ -44,3 +44,5 @@ countries = [("pk", "Pakistan"), ("us", "USA")]
 country_dict = dict(countries)
 
 print(country_dict, type(country_dict))
+
+#-----------------------------------------------------------------------------------------
