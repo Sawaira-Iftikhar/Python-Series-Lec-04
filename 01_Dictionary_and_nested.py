@@ -59,3 +59,7 @@ book = {
     "author": "Robert Martin",
     "price": 450
 }
+
+# 1. Access the title using square brackets
+
+print("Title:", book["title"])
