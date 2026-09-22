@@ -146,3 +146,8 @@ print("Ayesha's Name:", classroom["std2"]["name"])
 #     b) Append "Docker" to the skills list inside the dictionary
 #     c) Print the updated dictionary
 
+developer = {
+    "name": "Zayd",
+    "skills": ["Python", "JavaScript", "SQL"],
+    "experience_years": 3
+}
