@@ -157,3 +157,6 @@ print("Second skill:", developer["skills"][1])
 
 # 2. Append "Docker" to the skills list
 developer["skills"].append("Docker")
+
+# 3. Print the updated dictionary
+print("Updated Dev:", developer)
