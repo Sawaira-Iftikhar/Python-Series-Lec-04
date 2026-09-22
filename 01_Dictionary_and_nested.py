@@ -134,3 +134,15 @@ print("Hamza's Marks:", classroom["std1"]["marks"])
 print("Ayesha's Name:", classroom["std2"]["name"])
 
 #-----------------------------------------------------------------------------------------
+
+# Q5. NESTED DICTIONARIES WITH LISTS:
+#     Given:
+#     developer = {
+#         "name": "Zayd",
+#         "skills": ["Python", "JavaScript", "SQL"],
+#         "experience_years": 3
+#     }
+#     a) Print the second skill ("JavaScript")
+#     b) Append "Docker" to the skills list inside the dictionary
+#     c) Print the updated dictionary
+
