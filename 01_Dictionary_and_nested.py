@@ -11,3 +11,10 @@
 # ==========================================
 #  PART A: DICTIONARY BASICS
 # ==========================================
+
+# Q1. CREATING DICTIONARIES:
+#     Create and print the following with their types:
+#     a) An empty dictionary
+#     b) A dictionary representing a user: "username", "age", "is_active"
+#     c) A dictionary created using the dict() constructor
+#     d) A dictionary created from a list of 2-item tuples: [("pk", "Pakistan"), ("us", "USA")]
