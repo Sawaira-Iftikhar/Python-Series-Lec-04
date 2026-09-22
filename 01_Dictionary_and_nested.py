@@ -160,3 +160,20 @@ developer["skills"].append("Docker")
 
 # 3. Print the updated dictionary
 print("Updated Dev:", developer)
+
+#-----------------------------------------------------------------------------------------
+
+# Q7. DEEP 3-LEVEL NESTED ACCESS:
+#     Given:
+#     company = {
+#         "it_dept": {
+#             "lead": {
+#                 "name": "Sarah",
+#                 "contact": {"email": "sarah@tech.com", "phone": "555-0199"}
+#             }
+#         }
+#     }
+#     a) Print Sarah's email
+#     b) Change Sarah's phone to "555-9999"
+#     c) Print the updated contact sub-dictionary
+
