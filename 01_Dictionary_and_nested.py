@@ -63,3 +63,7 @@ book = {
 # 1. Access the title using square brackets
 
 print("Title:", book["title"])
+
+# 2. Update the price
+
+book["price"] = 500
