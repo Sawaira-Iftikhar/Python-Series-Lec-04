@@ -129,3 +129,6 @@ print("Classroom:", classroom)
 
 # 2. Access and print Hamza's marks
 print("Hamza's Marks:", classroom["std1"]["marks"])
+
+# 3. Access and print Ayesha's name
+print("Ayesha's Name:", classroom["std2"]["name"])
