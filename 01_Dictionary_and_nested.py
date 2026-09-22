@@ -163,7 +163,7 @@ print("Updated Dev:", developer)
 
 #-----------------------------------------------------------------------------------------
 
-# Q7. DEEP 3-LEVEL NESTED ACCESS:
+# Q6. DEEP 3-LEVEL NESTED ACCESS:
 #     Given:
 #     company = {
 #         "it_dept": {
@@ -200,3 +200,12 @@ company["it_dept"]["lead"]["contact"]["phone"] = "555-9999"
 print("Updated Contact:", company["it_dept"]["lead"]["contact"])
 
 #------------------------------------------------------------------------------------------
+
+# Q7. ADDING & DELETING IN NESTED DICTS:
+#     Given:
+#     hospital = {
+#         "doctor_1": {"name": "Dr. Farooq", "specialty": "Cardiology", "room": 104}
+#     }
+#     a) Add "doctor_2": {"name": "Dr. Hina", "specialty": "Dermatology", "room": 201}
+#     b) Delete the "room" key from doctor_1 using del
+#     c) Print the final hospital dictionary
