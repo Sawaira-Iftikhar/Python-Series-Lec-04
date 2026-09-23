@@ -226,3 +226,7 @@ hospital["doctor_2"] = {
     "specialty": "Dermatology",
     "room": 201
 }
+
+# 2. Delete the room key from doctor_1
+
+del hospital["doctor_1"]["room"]
