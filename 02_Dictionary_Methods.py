@@ -86,3 +86,7 @@ print("Existing volume returns:", volume_value)
 # 2. New key
 brightness_value = settings.setdefault("brightness", 100)
 print("New brightness returns:", brightness_value)
+
+# 3. Print updated dictionary
+print("Updated Settings:", settings)
+
