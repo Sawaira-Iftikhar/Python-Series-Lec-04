@@ -92,3 +92,14 @@ print("Updated Settings:", settings)
 
 #-----------------------------------------------------------------------------------------
 
+# Q4. `dict.fromkeys()`:
+#     a) Create a list: sensors = ["temp", "humidity", "pressure"]
+#     b) Use dict.fromkeys(sensors, 0.0) to create a readings dictionary
+#     c) Print the readings dictionary
+
+sensors = ["temp", "humidity", "pressure"]
+
+readings = dict.fromkeys(sensors, 0.0)
+
+print("Readings:", readings)
+
