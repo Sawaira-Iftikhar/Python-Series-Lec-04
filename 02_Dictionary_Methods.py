@@ -33,10 +33,12 @@ print("Salary: ", person.get("salary"))
 # 3. Access "salary" using .get() with a default value
 print("Salary with default:", person.get("salary", 50000))
 
-# d) Explanation:
+# 4. Explanation:
 """
 # .get() is safer because if the key does not exist,
 # it returns None instead of causing a KeyError.
 # person["salary"] would cause a KeyError because "salary" is not present.
 
 """
+
+#----------------------------------------------------------------------------------------
