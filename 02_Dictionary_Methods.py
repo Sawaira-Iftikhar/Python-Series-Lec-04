@@ -42,3 +42,12 @@ print("Salary with default:", person.get("salary", 50000))
 """
 
 #----------------------------------------------------------------------------------------
+
+# Q2. `.keys()`, `.values()`, `.items()`:
+#     Given: product = {"id": 101, "title": "Headphones", "price": 49.99}
+#     a) Print product.keys() as a list
+#     b) Print product.values() as a list
+#     c) Print product.items() as a list
+#     d) Check if "Headphones" is in product.values()
+
+
