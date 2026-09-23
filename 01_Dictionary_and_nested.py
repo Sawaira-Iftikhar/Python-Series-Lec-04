@@ -258,3 +258,7 @@ user_config = {
     "timeout": 60
 }
 
+# Merge both dictionaries
+final_config = {**default_config, **user_config}
+
+print("Final Config of two dic: ",final_config)
