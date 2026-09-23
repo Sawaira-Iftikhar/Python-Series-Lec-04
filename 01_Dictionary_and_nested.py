@@ -253,5 +253,8 @@ default_config = {
     "timeout": 30
 }
 
-
+user_config = {
+    "theme": "dark",
+    "timeout": 60
+}
 
