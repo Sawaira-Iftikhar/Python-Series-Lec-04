@@ -70,3 +70,9 @@ print("Items:", list(product.items()))
 print("'Headphones' in values:", "Headphones" in product.values())
 
 #----------------------------------------------------------------------------------------
+
+# Q3. `.setdefault()` METHOD:
+#     Given: settings = {"volume": 80}
+#     a) Use settings.setdefault("volume", 50) -> What value is returned?
+#     b) Use settings.setdefault("brightness", 100) -> What value is returned?
+#     c) Print settings. Notice which key got added and which stayed unchanged.
