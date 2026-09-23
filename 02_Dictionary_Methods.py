@@ -62,3 +62,6 @@ print("Keys:", list(product.keys()))
 
 # 2. Print values as a list
 print("Values:", list(product.values()))
+
+# 3. Print items as a list
+print("Items:", list(product.items()))
