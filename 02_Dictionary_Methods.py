@@ -82,3 +82,7 @@ settings = {"volume": 80}
 # 1. Existing key
 volume_value = settings.setdefault("volume", 50)
 print("Existing volume returns:", volume_value)
+
+# 2. New key
+brightness_value = settings.setdefault("brightness", 100)
+print("New brightness returns:", brightness_value)
