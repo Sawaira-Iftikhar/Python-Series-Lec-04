@@ -232,3 +232,5 @@ del hospital["doctor_1"]["room"]
 
 # 3. Print the final hospital dictionary
 print(hospital)
+
+#-----------------------------------------------------------------------------------------
