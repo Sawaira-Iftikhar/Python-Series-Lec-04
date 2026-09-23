@@ -23,3 +23,6 @@ person = {
     "name": "Bilal",
     "city": "Karachi"
 }
+
+# 1. Access "name" using .get()
+print("Name: ",person.get("name"))
