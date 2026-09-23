@@ -19,3 +19,7 @@
 #     c) Access "salary" using .get("salary", 50000)
 #     d) Explain why .get() is safer than person["salary"]
 
+person = {
+    "name": "Bilal",
+    "city": "Karachi"
+}
