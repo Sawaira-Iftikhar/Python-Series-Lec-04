@@ -65,3 +65,6 @@ print("Values:", list(product.values()))
 
 # 3. Print items as a list
 print("Items:", list(product.items()))
+
+# 4. Check if "Headphones" is in the values
+print("'Headphones' in values:", "Headphones" in product.values())
