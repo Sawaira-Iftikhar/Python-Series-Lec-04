@@ -51,3 +51,11 @@ print("Salary with default:", person.get("salary", 50000))
 #     d) Check if "Headphones" is in product.values()
 
 
+product = {
+    "id": 101,
+    "title": "Headphones",
+    "price": 49.99
+}
+
+# 1. Print keys as a list
+print("Keys:", list(product.keys()))
