@@ -26,3 +26,6 @@ person = {
 
 # 1. Access "name" using .get()
 print("Name: ",person.get("name"))
+
+# 2. Access "salary" using  .get() without default
+print("Salary: ", person.get("salary"))
