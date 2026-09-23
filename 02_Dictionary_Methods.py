@@ -90,3 +90,5 @@ print("New brightness returns:", brightness_value)
 # 3. Print updated dictionary
 print("Updated Settings:", settings)
 
+#-----------------------------------------------------------------------------------------
+
