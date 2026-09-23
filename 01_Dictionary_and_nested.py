@@ -218,3 +218,11 @@ hospital = {
         "room": 104
     }
 }
+
+# 1. Add doctor_2
+
+hospital["doctor_2"] = {
+    "name": "Dr. Hina",
+    "specialty": "Dermatology",
+    "room": 201
+}
