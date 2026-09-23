@@ -228,5 +228,7 @@ hospital["doctor_2"] = {
 }
 
 # 2. Delete the room key from doctor_1
-
 del hospital["doctor_1"]["room"]
+
+# 3. Print the final hospital dictionary
+print(hospital)
