@@ -78,3 +78,7 @@ print("'Headphones' in values:", "Headphones" in product.values())
 #     c) Print settings. Notice which key got added and which stayed unchanged.
 
 settings = {"volume": 80}
+
+# 1. Existing key
+volume_value = settings.setdefault("volume", 50)
+print("Existing volume returns:", volume_value)
