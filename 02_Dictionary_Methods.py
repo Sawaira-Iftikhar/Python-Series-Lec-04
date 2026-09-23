@@ -29,3 +29,6 @@ print("Name: ",person.get("name"))
 
 # 2. Access "salary" using  .get() without default
 print("Salary: ", person.get("salary"))
+
+# 3. Access "salary" using .get() with a default value
+print("Salary with default:", person.get("salary", 50000))
