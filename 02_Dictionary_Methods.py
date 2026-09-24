@@ -111,7 +111,7 @@ print("Readings:", readings)
 
 # Q5. `.update()` METHOD:
 #     Given: profile = {"name": "Minhal", "role": "Junior Dev"}
-#     a) Update "role" to "Senior Dev" and add "tech": "Python" using one .update()
+#     a) Update "role" to "Senior Dev" and add "tech": "Python"
 #     b) Update profile using another dict: {"location": "Remote", "salary": 90000}
 #     c) Print the final profile
 
@@ -201,6 +201,14 @@ print("ref2: ",ref2)
 # ==========================================
 #  PART C: AGGREGATIONS & COPYING 
 # ==========================================
+
+# Q8. MATH ON DICTIONARY VALUES:
+#     Given: test_scores = {"Math": 85, "Physics": 92, "English": 78, "Chemistry": 89}
+#     a) Find highest score 
+#     b) Find lowest score 
+#     c) Find average score  / len(test_scores)
+
+
 
 
 
