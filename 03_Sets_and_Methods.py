@@ -94,3 +94,11 @@ print("Updated set: ", main_set)
 
 #-----------------------------------------------------------------------------------------
 
+# Q4. `.clear()` & `.copy()`:
+#     Given:  {"red", "green", "blue"}
+#     a) Create a shallow copy: backup_colors = colors.copy()
+#     b) Empty the original set
+#     c) Print both `colors` and `backup_colors`
+
+
+
