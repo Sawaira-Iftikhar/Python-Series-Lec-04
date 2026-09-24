@@ -105,6 +105,9 @@ colors = {"red", "green", "blue"}
 # 1. Create a copy of the set
 backup_color = colors.copy()
 
+# 2. CLear the original set
+colors.clear()
+
 
 
 
