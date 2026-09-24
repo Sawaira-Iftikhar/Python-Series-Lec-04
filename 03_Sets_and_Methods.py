@@ -32,3 +32,7 @@ print("characters in Missisippi: ",characters)
 print("Type: ",type(characters))
 
 # 3. Empty set 
+empty_set = set()
+
+print("Empty set: ", empty_set)
+print("Type:", type(empty_set))
