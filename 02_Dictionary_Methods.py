@@ -125,3 +125,9 @@ profile.update({
     "role" : "Senior Dev",
     "tech" : "python"
 })
+
+# 2. Update using another dictionary
+new_info = {
+    "location" : "Remote",
+    "Salary" : 90000
+}
