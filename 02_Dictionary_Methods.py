@@ -225,6 +225,11 @@ lowest = min(scores.value())
 # 3. Average Score
 average = sum(scores.values()/len(scores))
 
+# Print all steps
+print("Highesst: ", highest)
+print("Lowest: ", lowest)
+print("Average: ",average)
+
 
 
 
