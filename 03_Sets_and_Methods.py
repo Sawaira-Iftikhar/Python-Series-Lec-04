@@ -77,3 +77,6 @@ print("Length: ",len(clean_list))
 
 main_set = {10, 20, 30}
 
+# 1. Add a single element/item
+main_set.add(40)
+
