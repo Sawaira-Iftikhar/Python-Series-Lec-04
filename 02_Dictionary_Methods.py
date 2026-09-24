@@ -222,6 +222,10 @@ highest = max(scores.values())
 # 2. Lowest Score
 lowest = min(scores.value())
 
+# 3. Average Score
+average = sum(scores.values()/len(scores))
+
+
 
 
 
