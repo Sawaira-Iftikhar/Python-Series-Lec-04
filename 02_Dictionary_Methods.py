@@ -179,6 +179,15 @@ print("Final Remaining dictionary: ",session)
 #     d2 = {"a": 1, "b": 2}
 #     ref2 = d2
 #     d2 = {}
+  
+
+# first case : clear()
+d1 = {"a": 1, "b": 2}
+ref1 = d1
+
+d1.clear()
+print("ref1: ",ref1)
+
 
 
 
