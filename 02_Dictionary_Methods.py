@@ -181,12 +181,21 @@ print("Final Remaining dictionary: ",session)
 #     d2 = {}
   
 
-# first case : clear()
+# 1. first case: clear()
 d1 = {"a": 1, "b": 2}
 ref1 = d1
 
 d1.clear()
 print("ref1: ",ref1)
+
+# 2. Second case: reassigning {}
+d2 = {"a": 1, "b":2}
+ref2 = d2
+
+d2 = {}
+
+print("ref2: ",ref2)
+
 
 
 
