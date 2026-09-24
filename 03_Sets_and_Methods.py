@@ -31,3 +31,4 @@ characters = set("Missisippi")
 print("characters in Missisippi: ",characters)
 print("Type: ",type(characters))
 
+# 3. Empty set 
