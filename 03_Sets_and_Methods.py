@@ -36,3 +36,7 @@ empty_set = set()
 
 print("Empty set: ", empty_set)
 print("Type:", type(empty_set))
+
+# 4. {} vs set()
+print("type({}):", type({}))
+print("type(set()):", type(set()))
