@@ -118,7 +118,7 @@ print("backup colors: ", backup_color)
 #  PART C: MATHEMATICAL SET OPERATIONS 
 # ==========================================
 
-# Q7. UNION (|) & INTERSECTION (&):
+# Q5. UNION (|) & INTERSECTION (&):
 #     Given student course enrollments:
 #     python_students = {"Ali", "Bilal", "Sara", "Zainab"}
 #     data_students   = {"Sara", "Zainab", "Hamza", "Kamran"}
@@ -154,3 +154,12 @@ courses_method = python_students.intersection(data_students)
 
 print("Both Courses (Intersection) using &:", courses_operator)
 print("Both Courses (Intersection) using .intersection():", courses_method)
+
+#-----------------------------------------------------------------------------------------
+
+# Q6. DIFFERENCE (-) & SYMMETRIC DIFFERENCE (^):
+#     Using `python_students` and `data_students` from Q7:
+#     a) Find students who are ONLY in Python (Difference: python - data)
+#     b) Find students who are ONLY in Data Science (Difference: data - python)
+#     c) Find students enrolled in exactly ONE course, not both (Symmetric Difference: `^`)
+
