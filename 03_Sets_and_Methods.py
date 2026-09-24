@@ -158,8 +158,10 @@ print("Both Courses (Intersection) using .intersection():", courses_method)
 #-----------------------------------------------------------------------------------------
 
 # Q6. DIFFERENCE (-) & SYMMETRIC DIFFERENCE (^):
-#     Using `python_students` and `data_students` from Q7:
+#     Using `python_students` and `data_students` from Q5:
 #     a) Find students who are ONLY in Python (Difference: python - data)
 #     b) Find students who are ONLY in Data Science (Difference: data - python)
 #     c) Find students enrolled in exactly ONE course, not both (Symmetric Difference: `^`)
 
+python_students = {"Ali", "Bilal", "Sara", "Zainab"}
+data_students = {"Sara", "Zainab", "Hamza", "Kamran"}
