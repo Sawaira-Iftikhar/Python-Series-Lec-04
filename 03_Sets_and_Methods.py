@@ -180,3 +180,13 @@ print("Only Data:", only_data)
 print("In Exactly One Course:", exactly_one)
 
 #-----------------------------------------------------------------------------------------
+
+# Q7. SUBSET, SUPERSET & DISJOINT:
+#     Given:
+#     frontend = {"HTML", "CSS", "JS"}
+#     fullstack = {"HTML", "CSS", "JS", "Python", "SQL"}
+#     backend = {"Python", "SQL"}
+#
+#     a) Check if `frontend` is a subset of `fullstack` (.issubset() / <=)
+#     b) Check if `fullstack` is a superset of `backend` (.issuperset() / >=)
+#     c) Check if `frontend` and `backend` are disjoint (have no common elements) (.isdisjoint())
