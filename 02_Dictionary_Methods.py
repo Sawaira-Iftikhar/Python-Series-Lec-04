@@ -170,6 +170,18 @@ print("Final Remaining dictionary: ",session)
 
 #-----------------------------------------------------------------------------------------
 
+# Q7. `.clear()` vs REASSIGNING `{}`:
+#     Given:
+#     d1 = {"a": 1, "b": 2}
+#     ref1 = d1
+#     d1.clear()
+#
+#     d2 = {"a": 1, "b": 2}
+#     ref2 = d2
+#     d2 = {}
+
+
+
 
 
 
