@@ -108,3 +108,10 @@ print("Readings:", readings)
 # ==========================================
 #  PART B: UPDATES & REMOVALS 
 # ==========================================
+
+# Q5. `.update()` METHOD:
+#     Given: profile = {"name": "Mariam", "role": "Junior Dev"}
+#     a) Update "role" to "Senior Dev" and add "tech": "Python" using one .update()
+#     b) Update profile using another dict: {"location": "Remote", "salary": 90000}
+#     c) Print the final profile
+
