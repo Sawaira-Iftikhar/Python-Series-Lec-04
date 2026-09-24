@@ -154,7 +154,11 @@ session = {
 
 # 1. Remove "token" and store the returned value
 remove_token = session.pop("token")
-print("Removed vlaue of Token: ", remove_token)
+print("Removed value of Token: ", remove_token)
+
+# 2. Try to remove "theme"
+remove_theme = session.pop("theme" ,"light")
+print("Removed vqlue of theme: ",remove_theme)
 
 
 
