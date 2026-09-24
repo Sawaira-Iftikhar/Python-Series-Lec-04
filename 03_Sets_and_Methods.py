@@ -88,5 +88,9 @@ try:
     main_set.add([80,90])
 except TypeError as e:
     print("Error: ", e)
-    
+
+# 4. Print the update set
+print("Updated set: ", main_set)
+
+#-----------------------------------------------------------------------------------------
 
