@@ -140,9 +140,9 @@ print(profile)
 
 # Q6. `.pop()` & `.popitem()`:
 #     Given: session = {"ip": "192.168.1.1", "device": "Mobile", "token": "xyz123", "status": "active"}
-#     a) Remove "token" using .pop() and store the returned token
-#     b) Remove "theme" using .pop("theme", "light") with a default value
-#     c) Remove the last inserted item using .popitem() and check its type
+#     a) Remove "token"  and store the returned token
+#     b) Remove "theme" with a default value
+#     c) Remove the last inserted item  and check its type
 #     d) Print the remaining session dictionary
 
 session = {
@@ -151,3 +151,4 @@ session = {
     "token": "xyz123",
     "status": "active"
 }
+
