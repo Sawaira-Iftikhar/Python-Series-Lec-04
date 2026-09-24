@@ -119,3 +119,9 @@ profile = {
     "name" : "Minhal",
     "role" : "Junior Developer"
 }
+
+# 1. Update role and add tech 
+profile.update({
+    "role" : "Senior Dev",
+    "tech" : "python"
+})
