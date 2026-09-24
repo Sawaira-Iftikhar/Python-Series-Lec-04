@@ -70,8 +70,8 @@ print("Length: ",len(clean_list))
 
 # Q3. `.add()` vs `.update()`:
 #     Given:  {10, 20, 30}
-#     a) Add a single element 40 using .add()
-#     b) Add multiple elements [50, 60, 70] using .update()
+#     a) Add a single element 40 
+#     b) Add multiple elements [50, 60, 70] using 
 #     c) What happens if you try my_set.add([80, 90])? Write the error.
 #     d) Print my_set after adding and updating.
 
@@ -82,4 +82,11 @@ main_set.add(40)
 
 # 2. Add multiple element
 main_set.update([50, 60, 70])
+
+# 3. Try adding a list
+try:
+    main_set.add([80,90])
+except TypeError as e:
+    print("Error: ", e)
+    
 
