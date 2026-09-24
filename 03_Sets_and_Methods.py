@@ -108,6 +108,10 @@ backup_color = colors.copy()
 # 2. CLear the original set
 colors.clear()
 
+# 3. Print both set
+print("colors: ",colors)
+print("backup colors: ", backup_color)
+
 
 
 
