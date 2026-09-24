@@ -133,4 +133,5 @@ new_info = {
 }
 profile.update(new_info)
 
- 
+# 3. Print the final profile
+print(profile) 
