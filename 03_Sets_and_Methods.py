@@ -58,3 +58,7 @@ set_raw = set(raw_tags)
 # 2. Convert set back to list
 clean_list = list(set_raw)
 
+# 3. Print the cleaned list and its length
+print("Unique tags: ",clean_list)
+print("Length: ",len(clean_list))
+
