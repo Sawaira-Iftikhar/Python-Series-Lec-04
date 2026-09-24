@@ -131,3 +131,6 @@ new_info = {
     "location" : "Remote",
     "Salary" : 90000
 }
+profile.update(new_info)
+
+ 
