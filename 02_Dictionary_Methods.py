@@ -160,6 +160,13 @@ print("Removed value of Token: ", remove_token)
 remove_theme = session.pop("theme" ,"light")
 print("Removed vqlue of theme: ",remove_theme)
 
+# 3. Remove the last inserted item
+last_item = session.popitem()
+print("Last itme removed: ",last_item)
+print("Type: ",type(last_item))
+
+
+
 
 
 
