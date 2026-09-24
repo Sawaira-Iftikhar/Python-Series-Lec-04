@@ -165,3 +165,6 @@ print("Both Courses (Intersection) using .intersection():", courses_method)
 
 python_students = {"Ali", "Bilal", "Sara", "Zainab"}
 data_students = {"Sara", "Zainab", "Hamza", "Kamran"}
+
+# 1. Students who are ONLY in Python
+only_py = python_students - data_students
