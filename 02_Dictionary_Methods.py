@@ -152,3 +152,10 @@ session = {
     "status": "active"
 }
 
+# 1. Remove "token" and store the returned value
+remove_token = session.pop("token")
+print("Removed vlaue of Token: ", remove_token)
+
+
+
+
