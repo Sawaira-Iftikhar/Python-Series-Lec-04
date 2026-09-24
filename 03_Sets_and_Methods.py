@@ -131,3 +131,8 @@ print("backup colors: ", backup_color)
 
 python_students = {"Ali", "Bilal", "Sara", "Zainab"}
 data_students   = {"Sara", "Zainab", "Hamza", "Kamran"}
+
+# 1. UNION — students taking at least one course
+
+# Using | operator
+all_students_operator = python_students | data_students
