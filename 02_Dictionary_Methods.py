@@ -216,6 +216,8 @@ scores = {
     "Chemistry": 89
 }
 
+# 1. Highest score
+highest = max(scores.values())
 
 
 
