@@ -100,5 +100,7 @@ print("Updated set: ", main_set)
 #     b) Empty the original set
 #     c) Print both `colors` and `backup_colors`
 
+colors = {"red", "green", "blue"}
+
 
 
