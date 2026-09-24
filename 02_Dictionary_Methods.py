@@ -165,6 +165,8 @@ last_item = session.popitem()
 print("Last itme removed: ",last_item)
 print("Type: ",type(last_item))
 
+# 4. Print the remaining dictionary 
+print("Final Remaining dictionary: ",session)
 
 
 
