@@ -80,3 +80,6 @@ main_set = {10, 20, 30}
 # 1. Add a single element/item
 main_set.add(40)
 
+# 2. Add multiple element
+main_set.update([50, 60, 70])
+
