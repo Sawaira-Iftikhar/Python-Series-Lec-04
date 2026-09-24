@@ -21,3 +21,7 @@
 
 # 1. Set with duplicate values
 numbers = {1, 2, 2, 3, 4, 4, 5}
+
+print("Unique ints: ",numbers)
+print("Type: ",type(numbers))
+
