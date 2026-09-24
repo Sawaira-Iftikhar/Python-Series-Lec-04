@@ -171,3 +171,6 @@ only_py = python_students - data_students
 
 # 2. Students who are ONLY in Data Science
 only_data = data_students - python_students
+
+# 3. Students enrolled in exactly ONE course
+exactly_one = python_students ^ data_students
