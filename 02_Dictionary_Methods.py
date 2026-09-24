@@ -220,10 +220,10 @@ scores = {
 highest = max(scores.values())
 
 # 2. Lowest Score
-lowest = min(scores.value())
+lowest = min(scores.values())
 
 # 3. Average Score
-average = sum(scores.values()/len(scores))
+average = sum(scores.values())/len(scores)
 
 # Print all steps
 print("Highesst: ", highest)
