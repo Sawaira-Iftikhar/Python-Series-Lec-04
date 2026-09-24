@@ -147,7 +147,10 @@ print("All Students (Union) using .union(): ",  students_method)
 # 2. INTERSECTION — students taking both courses
 
 # Using & operator
-both_courses_operator = python_students & data_students
+courses_operator = python_students & data_students
 
 # Using .intersection() method
-both_courses_method = python_students.intersection(data_students)
+courses_method = python_students.intersection(data_students)
+
+print("Both Courses (Intersection) using &:", courses_operator)
+print("Both Courses (Intersection) using .intersection():", courses_method)
