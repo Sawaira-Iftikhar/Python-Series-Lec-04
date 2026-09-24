@@ -55,3 +55,6 @@ raw_tags = ["python", "coding", "python", "ai", "coding", "web", "ai"]
 # 1. Covert raw list into set
 set_raw = set(raw_tags)
 
+# 2. Convert set back to list
+clean_list = list(set_raw)
+
