@@ -102,5 +102,10 @@ print("Updated set: ", main_set)
 
 colors = {"red", "green", "blue"}
 
+# 1. Create a copy of the set
+backup_color = colors.copy()
+
+
+
 
 
