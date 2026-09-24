@@ -4,7 +4,7 @@
   Topics: .get(), .update(), .pop(), .popitem(),
           .keys(), .values(), .items(), .setdefault(),
           .fromkeys(), .copy(), .clear()
-  Total Questions: ``
+  Total Questions: 8
 ============================================
 """
 
