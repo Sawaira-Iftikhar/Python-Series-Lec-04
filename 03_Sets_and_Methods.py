@@ -25,3 +25,9 @@ numbers = {1, 2, 2, 3, 4, 4, 5}
 print("Unique ints: ",numbers)
 print("Type: ",type(numbers))
 
+# 2. Set frm a string
+characters = set("Missisippi")
+
+print("characters in Missisippi: ",characters)
+print("Type: ",type(characters))
+
