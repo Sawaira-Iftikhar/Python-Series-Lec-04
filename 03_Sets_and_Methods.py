@@ -118,3 +118,16 @@ print("backup colors: ", backup_color)
 #  PART C: MATHEMATICAL SET OPERATIONS 
 # ==========================================
 
+# Q7. UNION (|) & INTERSECTION (&):
+#     Given student course enrollments:
+#     python_students = {"Ali", "Bilal", "Sara", "Zainab"}
+#     data_students   = {"Sara", "Zainab", "Hamza", "Kamran"}
+#
+#     a) Find all unique students taking at least one course (Union)
+#        Perform using both operator `|` and method `.union()`
+#     b) Find students taking BOTH courses (Intersection)
+#        Perform using both operator `&` and method `.intersection()`
+
+
+python_students = {"Ali", "Bilal", "Sara", "Zainab"}
+data_students   = {"Sara", "Zainab", "Hamza", "Kamran"}
