@@ -52,3 +52,6 @@ print("type(set()):", type(set()))
 
 raw_tags = ["python", "coding", "python", "ai", "coding", "web", "ai"]
 
+# 1. Covert raw list into set
+set_raw = set(raw_tags)
+
