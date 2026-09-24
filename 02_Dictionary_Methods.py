@@ -145,3 +145,9 @@ print(profile)
 #     c) Remove the last inserted item using .popitem() and check its type
 #     d) Print the remaining session dictionary
 
+session = {
+    "ip": "192.168.1.1",
+    "device": "Mobile",
+    "token": "xyz123",
+    "status": "active"
+}
