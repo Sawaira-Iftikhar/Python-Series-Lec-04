@@ -135,4 +135,8 @@ data_students   = {"Sara", "Zainab", "Hamza", "Kamran"}
 # 1. UNION — students taking at least one course
 
 # Using | operator
-all_students_operator = python_students | data_students
+students_operator = python_students | data_students
+
+
+# Using .union() method
+students_method = python_students.union(data_students)
