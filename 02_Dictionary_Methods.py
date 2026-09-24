@@ -219,6 +219,10 @@ scores = {
 # 1. Highest score
 highest = max(scores.values())
 
+# 2. Lowest Score
+lowest = min(scores.value())
+
+
 
 
 
