@@ -140,3 +140,6 @@ students_operator = python_students | data_students
 
 # Using .union() method
 students_method = python_students.union(data_students)
+
+print("All Students (Union) using |: ", students_operator)
+print("All Students (Union) using .union(): ",  students_method)
