@@ -48,3 +48,7 @@ print("type(set()):", type(set()))
 #     a) Convert raw_tags to a set to eliminate duplicates
 #     b) Convert it back to a list
 #     c) Print the cleaned unique list and its length
+
+
+raw_tags = ["python", "coding", "python", "ai", "coding", "web", "ai"]
+
