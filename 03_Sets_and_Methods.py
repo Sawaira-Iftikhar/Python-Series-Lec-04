@@ -10,3 +10,14 @@
 # ==========================================
 #  PART A: SET BASICS & UNIQUENESS 
 # ==========================================
+
+# Q1. CREATING SETS:
+#     Create and print the following sets with their types:
+#     a) A set of 5 integers with duplicate values: {1, 2, 2, 3, 4, 4, 5}
+#     b) A set from a string: set("Mississippi")
+#     c) An EMPTY set (TRICKY! Is it {} or set()?)
+#     d) Print type({}) vs type(set())
+
+
+# 1. Set with duplicate values
+numbers = {1, 2, 2, 3, 4, 4, 5}
