@@ -333,3 +333,5 @@ social_network["sara"] = {
     "name": "Sara Noor",
     "friends": {"ali", "bilal"}
 }
+
+# 5. Print the social analysis report
