@@ -311,3 +311,10 @@ social_network = {
         "friends": {"hamza", "ali", "danish", "sara", "kamran"}
     }
 }
+
+# 1. Mutual Friends
+
+hamza_friends = social_network["hamza"]["friends"]
+ali_friends = social_network["ali"]["friends"]
+
+mutual_friends = hamza_friends & ali_friends
