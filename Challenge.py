@@ -90,3 +90,16 @@ print("=" * 30)
 
 print("All Unique Skills across Campus:")
 print(all_skills)
+
+print()
+
+print("Common Skills (Ali & Sara):", common_skills)
+
+print()
+
+print("Job Qualification Check:")
+print(
+    f"Is Zayd qualified for Data Analyst? "
+    f"{'✅ True' if is_qualified else '❌ False'} "
+    f"(Has all: {required_skills})"
+)
