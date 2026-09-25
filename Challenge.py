@@ -61,4 +61,9 @@ all_skills = set()
 for student in students.values():
     all_skills = all_skills.union(student["skills"])
 
+# 2. Find skills shared by BOTH Ali and Sara
+ali_skills = students["STD_01"]["skills"]
+sara_skills = students["STD_02"]["skills"]
+
+common_skills = ali_skills.intersection(sara_skills)
 
