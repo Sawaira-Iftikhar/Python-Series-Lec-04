@@ -56,24 +56,28 @@ job_skills = {
 }
 
 # 1. Find ALL unique skills across all students
+
 all_skills = set()
 
 for student in students.values():
     all_skills = all_skills.union(student["skills"])
 
 # 2. Find skills shared by BOTH Ali and Sara
+
 ali_skills = students["STD_01"]["skills"]
 sara_skills = students["STD_02"]["skills"]
 
 common_skills = ali_skills.intersection(sara_skills)
 
 # 3. Check if Zayd qualifies for Data Analyst
+
 zayd_skills = students["STD_03"]["skills"]
 required_skills = job_skills["Data Analyst"]
 
 is_qualified = required_skills.issubset(zayd_skills)
 
 # 4. Find students enrolled in CS101
+
 cs101_students = []
 
 for student_id, student in students.items():
@@ -81,9 +85,11 @@ for student_id, student in students.items():
         cs101_students.append((student_id, student["name"]))
 
 # 5. Add Docker to Ali's skills
+
 students["STD_01"]["skills"].add("Docker")
 
 # 6. Print summary report
+
 print("=" * 30)
 print("         STUDENT SKILL & COURSE AUDIT")
 print("=" * 30)
