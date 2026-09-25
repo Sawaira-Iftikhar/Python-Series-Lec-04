@@ -133,3 +133,33 @@ print("=" * 30)
 #  CHALLENGE 2: E-Commerce Store Inventory & Tag Engine 
 #  Topics: Nested Dicts, Dict Methods, Sets for Filtering
 # ==========================================
+
+"""
+You are managing an online electronics store catalog.
+
+Given Inventory:  (Sample)
+catalog = {
+    "P101": {
+        "title": " ",
+        "price":  ,
+        "stock": ,
+        "tags": {" ", " ", " ", ""}
+    },
+    .....
+    .....
+    .....
+    .....
+    .....
+    .....
+}
+
+Tasks:
+1. Find products that match ALL search tags (where search_tags is a subset of product tags).
+2. Find products that match ANY of the search tags (where product tags and search_tags intersect).
+3. Calculate the total retail value of inventory: sum of (price * stock) for all products.
+4. Apply a 10% discount on all products that have the "gaming" tag.
+   Update their prices in the dictionary.
+5. Print the catalog search and valuation report.
+
+"""
+
