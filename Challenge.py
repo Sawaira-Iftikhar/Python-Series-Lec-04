@@ -210,3 +210,10 @@ for product_id, product in catalog.items():
     if search_tags.intersection(product["tags"]):
         any_matches.append((product_id, product["title"]))
 
+# 3. Calculate total inventory value
+
+total_value = 0
+
+for product in catalog.values():
+    total_value += product["price"] * product["stock"]
+
