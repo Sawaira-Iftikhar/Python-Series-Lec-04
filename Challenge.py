@@ -296,3 +296,7 @@ Tasks:
 """
 
 # Social Recommendation Engine
+
+social_network = {
+    
+}
