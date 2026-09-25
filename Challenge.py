@@ -165,3 +165,7 @@ Tasks:
 
 # Online Electronics Store Catalog
 
+catalog = { 
+    
+}
+
