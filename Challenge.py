@@ -344,3 +344,11 @@ print("Mutual Friends (Hamza & Ali):")
 print(f"- {mutual_friends}")
 
 print()
+
+print("Recommended Friends for Ali (From Hamza's network):")
+print(f"- Suggested: {recommended_friends}")
+
+print()
+
+print("Exclusive / Non-Mutual Friends (Hamza ^ Ali):")
+print(f"- {exclusive_friends}")
