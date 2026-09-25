@@ -202,3 +202,11 @@ for product_id, product in catalog.items():
     if search_tags.issubset(product["tags"]):
         all_matches.append((product_id, product["title"], product["price"]))
 
+# 2. Products matching ANY search tag
+
+any_matches = []
+
+for product_id, product in catalog.items():
+    if search_tags.intersection(product["tags"]):
+        any_matches.append((product_id, product["title"]))
+
