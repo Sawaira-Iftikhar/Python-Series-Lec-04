@@ -335,3 +335,12 @@ social_network["sara"] = {
 }
 
 # 5. Print the social analysis report
+
+print("=" * 50)
+print("         SOCIAL RECOMMENDATION ENGINE")
+print("=" * 50)
+
+print("Mutual Friends (Hamza & Ali):")
+print(f"- {mutual_friends}")
+
+print()
