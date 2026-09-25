@@ -21,6 +21,11 @@ so you know how you have to make the number of dictionries in one main dictionar
 
 th 6 tasks that you can see blew are related to some dictionries in one main dictionary
 
+ how you are going to create dictionary
+  step1: create a empty dictionary
+  step2: make sure your dictonary hy just key according to the students you want to enter
+  step3: create he key of student 01 and write the Name, skills and enrolled_couses in value using dictionary
+
 Tasks:
 1. Find ALL unique skills possessed across all students (Union of all student skills).
 2. Find skills shared by BOTH Ali and Sara (Intersection).
