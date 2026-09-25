@@ -166,6 +166,12 @@ Tasks:
 # Online Electronics Store Catalog
 
 catalog = { 
-    
+     "P101": {
+        "title": "Wireless Gaming Mouse",
+        "price": 45.0,
+        "stock": 12,
+        "tags": {"wireless", "gaming", "accessories", "rgb"}
+    },
+
 }
 
