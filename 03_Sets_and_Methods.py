@@ -195,3 +195,7 @@ print("In Exactly One Course:", exactly_one)
 frontend = {"HTML", "CSS", "JS"}
 fullstack = {"HTML", "CSS", "JS", "Python", "SQL"}
 backend = {"Python", "SQL"}
+
+# 1. Check if frontend is a subset of fullstack
+print(frontend.issubset(fullstack))
+print(frontend <= fullstack)
