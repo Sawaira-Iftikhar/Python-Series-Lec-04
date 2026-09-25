@@ -203,3 +203,6 @@ print(frontend <= fullstack)
 # 2. Check if fullstack is a superset of backend
 print(fullstack.issuperset(backend))
 print(fullstack >= backend)
+
+# 3. Check if frontend and backend are disjoint
+print(frontend.isdisjoint(backend))
