@@ -258,3 +258,8 @@ print("=" * 50)
 
 #-----------------------------------------------------------------------------------------
 
+# ==========================================
+#  CHALLENGE 3: Social Network Graph & Friend Recommender 
+#  Topics: Nested Dicts, Set Difference, Set Intersection, Symmetric Diff
+# ==========================================
+
