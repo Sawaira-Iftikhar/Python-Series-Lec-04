@@ -73,3 +73,9 @@ required_skills = job_skills["Data Analyst"]
 
 is_qualified = required_skills.issubset(zayd_skills)
 
+# 4. Find students enrolled in CS101
+cs101_students = []
+
+for student_id, student in students.items():
+    if "CS101" in student["enrolled_courses"]:
+        cs101_students.append((student_id, student["name"]))
