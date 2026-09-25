@@ -95,9 +95,9 @@ students["STD_01"]["skills"].add("Docker")
 
 # 6. Print summary report
 
-print("=" * 30)
+print("=" * 50)
 print("         STUDENT SKILL & COURSE AUDIT")
-print("=" * 30)
+print("=" * 50)
 
 print("All Unique Skills across Campus:")
 print(all_skills)
@@ -125,7 +125,7 @@ print()
 
 print("Updated Ali Skills:", students["STD_01"]["skills"])
 
-print("=" * 30)
+print("=" * 50)
 
 #------------------------------------------------------------------------------------------
 
