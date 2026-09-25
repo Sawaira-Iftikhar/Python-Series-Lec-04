@@ -306,4 +306,8 @@ social_network = {
         "name": "Ali Raza",
         "friends": {"hamza", "bilal", "sara"}
     },
+    "bilal": {
+        "name": "Bilal Ahmed",
+        "friends": {"hamza", "ali", "danish", "sara", "kamran"}
+    }
 }
