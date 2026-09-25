@@ -192,3 +192,5 @@ catalog = {
     }
 }
 
+search_tags = {"gaming", "rgb"}
+
