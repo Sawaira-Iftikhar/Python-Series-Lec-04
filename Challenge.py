@@ -298,5 +298,8 @@ Tasks:
 # Social Recommendation Engine
 
 social_network = {
-    
+     "hamza": {
+        "name": "Hamza Tariq",
+        "friends": {"ali", "bilal", "danish", "usman"}
+    },
 }
