@@ -194,3 +194,11 @@ catalog = {
 
 search_tags = {"gaming", "rgb"}
 
+# 1. Products matching ALL search tags
+
+all_matches = []
+
+for product_id, product in catalog.items():
+    if search_tags.issubset(product["tags"]):
+        all_matches.append((product_id, product["title"], product["price"]))
+
