@@ -12,3 +12,12 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | 4 | Sets Basics (Uniqueness, Unordered, Set Creation `set()`) | ✅ |
 | 5 | Built-in Set Methods (`.add()`, `.remove()`, `.discard()`, `.pop()`) | ✅ |
 | 6 | Mathematical Set Operations (Union, Intersection, Difference, Symmetric Diff) | ✅ |
+
+## 📂 Practice Files
+
+| File | Topics | Questions |
+|------|--------|:---------:|
+| `01_dictionary_and_nested.py` | Dict Creation, Keys Rules, Access & Nested Dictionaries |  08 |
+| `02_dictionary_methods.py` | Built-in Dict Methods (`get`, `pop`, `update`, `setdefault`, etc.) |  08 |
+| `03_sets_and_methods.py` | Set Basics, Set Methods & Mathematical Set Operations | 07 |
+| `04_challenge.py` | ALL Topics Mixed (Course Tracker, Store Inventory, Social Graph) | 03 |
