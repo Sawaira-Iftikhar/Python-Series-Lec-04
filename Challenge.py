@@ -82,3 +82,11 @@ for student_id, student in students.items():
 
 # 5. Add Docker to Ali's skills
 students["STD_01"]["skills"].add("Docker")
+
+# 6. Print summary report
+print("=" * 30)
+print("         STUDENT SKILL & COURSE AUDIT")
+print("=" * 30)
+
+print("All Unique Skills across Campus:")
+print(all_skills)
