@@ -263,3 +263,36 @@ print("=" * 50)
 #  Topics: Nested Dicts, Set Difference, Set Intersection, Symmetric Diff
 # ==========================================
 
+"""
+Build a friendship connection matrix and recommendation engine.
+
+Given Social Graph:
+social_network = {
+    "hamza": {
+        "name": " ",
+        "friends": {" ", " ", " ", " "}
+    },
+    .....
+    .....
+    .....
+    .....
+}
+
+Tasks:
+1. Mutual Friends:
+   Find common friends between Hamza and Ali (Intersection).
+   (Exclude themselves if present).
+2. Friend Recommendation for Ali:
+   Recommend friends to Ali from Hamza's friend list:
+   - Friends of Hamza who are NOT currently friends with Ali AND not Ali himself.
+   - Formula: (Hamza's friends - Ali's friends) - {"ali"}
+3. Unique Connections:
+   Find friends who are exclusive to either Hamza or Ali, but not both (Symmetric Difference).
+4. Add a new user "sara" to `social_network`:
+   - Name: "Sara Noor"
+   - Friends: {"ali", "bilal"}
+5. Print the social analysis report.
+
+"""
+
+# Write your code here:
