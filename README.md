@@ -87,11 +87,11 @@ s.remove(99)   # ❌ Raises KeyError!
 - [ ] ** Lecture 02 — Strings, Slicing & Conditionals ✅
 - [ ] ** Lecture 03 — Lists, Tuples & Methods ✅
 - [ ] ** Lecture 04 — Dictionaries & Sets 📍 (Current)
-- [ ]  Lecture 05 — Coming Soon
-- [ ] ** Lecture 06 — Coming Soon
-- [ ] ** Lecture 07 — Coming Soon
-- [ ] ** Lecture 08 — Coming Soon
-- [ ] ** Lecture 09 — Coming Soon
+- [ ] ** Lecture 05** — Coming Soon
+- [ ] ** Lecture 06** — Coming Soon
+- [ ] ** Lecture 07** — Coming Soon
+- [ ] ** Lecture 08** — Coming Soon
+- [ ] ** Lecture 09** — Coming Soon
 
  ## 🤝 Connect & Feedback
 If you found this helpful or have any questions:
