@@ -321,3 +321,6 @@ mutual_friends = hamza_friends & ali_friends
 
 # Exclude Hamza and Ali themselves
 mutual_friends -= {"hamza", "ali"}
+
+# 2. Friend Recommendation for Ali
+recommended_friends = (hamza_friends - ali_friends) - {"ali"}
