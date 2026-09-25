@@ -50,10 +50,15 @@ students = {
     }  
 }
 
-job_role_skills = {
+job_skills = {
     "Data Analyst": {"Python", "SQL", "Pandas"},
     "Frontend Dev": {"HTML", "CSS", "JavaScript"}
 }
 
+# 1. Find ALL unique skills across all students
+all_skills = set()
+
+for student in students.values():
+    all_skills = all_skills.union(student["skills"])
 
 
