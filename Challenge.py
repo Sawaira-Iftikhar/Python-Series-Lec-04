@@ -359,3 +359,5 @@ print("Successfully registered new user: Sara Noor")
 print(f"Sara's Friends: {social_network['sara']['friends']}")
 
 print("=" * 50)
+
+#------------------------------------------------------------------------------------------
