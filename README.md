@@ -78,4 +78,5 @@ s = {(1, 2), (3, 4)}     # Works!
 s = {1, 2, 3}
 s.discard(99)  # ✅ Does nothing (Safe)
 s.remove(99)   # ❌ Raises KeyError!
-
+```
+</details>
