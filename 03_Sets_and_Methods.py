@@ -190,3 +190,8 @@ print("In Exactly One Course:", exactly_one)
 #     a) Check if `frontend` is a subset of `fullstack` (.issubset() / <=)
 #     b) Check if `fullstack` is a superset of `backend` (.issuperset() / >=)
 #     c) Check if `frontend` and `backend` are disjoint (have no common elements) (.isdisjoint())
+
+
+frontend = {"HTML", "CSS", "JS"}
+fullstack = {"HTML", "CSS", "JS", "Python", "SQL"}
+backend = {"Python", "SQL"}
