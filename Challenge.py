@@ -228,3 +228,14 @@ for product_id, product in catalog.items():
 
 # 5. Print report
 
+print("=" * 50)
+print("              STORE CATALOG REPORT")
+print("=" * 50)
+
+print(f"Products matching ALL search tags {search_tags}:")
+
+for product_id, title, price in all_matches:
+    print(f"- {product_id}: {title} (${price:.2f})")
+
+print()
+
