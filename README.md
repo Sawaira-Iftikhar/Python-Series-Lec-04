@@ -23,3 +23,9 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | [04_challenge.py](04_challenge.py) | ALL Topics Mixed (Course Tracker, Store Inventory, Social Graph) | 03 |
 
 ## 💡 Quick Cheat Sheet (Lecture 4 Highlights)
+
+<details>
+<summary><b>Click to expand quick revision notes</b></summary>
+
+<br>
+
