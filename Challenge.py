@@ -106,6 +106,18 @@ print()
 print("Job Qualification Check:")
 print(
     f"Is Zayd qualified for Data Analyst? "
-    f"{'✅ True' if is_qualified else '❌ False'} "
+    f"{' True' if is_qualified else ' False'} "
     f"(Has all: {required_skills})"
 )
+
+print()
+
+print("Students Enrolled in CS101:")
+for student_id, name in cs101_students:
+    print(f"- {name} ({student_id})")
+
+print()
+
+print("Updated Ali Skills:", students["STD_01"]["skills"])
+
+print("=" * 30)
