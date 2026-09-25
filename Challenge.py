@@ -31,3 +31,8 @@ Tasks:
 6. Print the summary report.
 
 """
+
+students = {
+
+    
+}
