@@ -199,3 +199,7 @@ backend = {"Python", "SQL"}
 # 1. Check if frontend is a subset of fullstack
 print(frontend.issubset(fullstack))
 print(frontend <= fullstack)
+
+# 2. Check if fullstack is a superset of backend
+print(fullstack.issuperset(backend))
+print(fullstack >= backend)
