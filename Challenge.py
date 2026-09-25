@@ -327,3 +327,9 @@ recommended_friends = (hamza_friends - ali_friends) - {"ali"}
 
 # 3. Unique Connections
 exclusive_friends = hamza_friends ^ ali_friends
+
+# 4. Add Sara to social_network
+social_network["sara"] = {
+    "name": "Sara Noor",
+    "friends": {"ali", "bilal"}
+}
