@@ -67,3 +67,9 @@ sara_skills = students["STD_02"]["skills"]
 
 common_skills = ali_skills.intersection(sara_skills)
 
+# 3. Check if Zayd qualifies for Data Analyst
+zayd_skills = students["STD_03"]["skills"]
+required_skills = job_skills["Data Analyst"]
+
+is_qualified = required_skills.issubset(zayd_skills)
+
