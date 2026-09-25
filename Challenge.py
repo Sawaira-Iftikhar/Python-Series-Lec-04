@@ -38,6 +38,11 @@ students = {
         "skills": {"Python", "SQL", "Git"},
         "enrolled_courses": {"CS101", "CS201"}
     },
+    "STD_02": {
+        "name": "Sara Ahmed",
+        "skills": {"HTML", "CSS", "JavaScript", "Git"},
+        "enrolled_courses": {"CS101", "WEB301"}
+    },
 
 
     
