@@ -63,3 +63,19 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | **Superset Check**| `A >= B` | `A.issuperset(B)` | `True` if A contains all elements of B |
 
 ### 4. Common Gotchas
+
+```python
+# ❌ Empty set vs Empty dictionary:
+empty_dict = {}       # <class 'dict'>
+empty_set  = set()    # <class 'set'> (Must use set() constructor!)
+
+# ❌ Sets and Dictionary Keys cannot hold mutable items:
+# s = {[1, 2], [3, 4]}   # TypeError: unhashable type: 'list'
+# ✅ Use tuples instead:
+s = {(1, 2), (3, 4)}     # Works!
+
+# ❌ .remove() vs .discard() on Sets:
+s = {1, 2, 3}
+s.discard(99)  # ✅ Does nothing (Safe)
+s.remove(99)   # ❌ Raises KeyError!
+
