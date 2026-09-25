@@ -30,3 +30,10 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 <br>
 
 ### 1. Data Structures Comparison
+
+| Data Structure | Syntax | Ordered? | Mutable? | Duplicates? | Indexable? |
+|---|:---:|:---:|:---:|:---:|:---:|
+| **List** | `[1, 2]` | ✅ Yes | ✅ Yes | ✅ Allowed | ✅ Yes (`list[0]`) |
+| **Tuple** | `(1, 2)` | ✅ Yes | ❌ No | ✅ Allowed | ✅ Yes (`tup[0]`) |
+| **Dictionary** | `{"a": 1}` | ✅ Yes (3.7+) | ✅ Yes | ❌ Keys Unique | ❌ By Key only |
+| **Set** | `{1, 2}` | ❌ No | ✅ Yes | ❌ No Duplicates | ❌ No |
