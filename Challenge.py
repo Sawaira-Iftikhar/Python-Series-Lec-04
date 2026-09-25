@@ -128,3 +128,8 @@ print("Updated Ali Skills:", students["STD_01"]["skills"])
 print("=" * 30)
 
 #------------------------------------------------------------------------------------------
+
+# ==========================================
+#  CHALLENGE 2: E-Commerce Store Inventory & Tag Engine 
+#  Topics: Nested Dicts, Dict Methods, Sets for Filtering
+# ==========================================
