@@ -50,3 +50,5 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | `.pop(key)` | Removes key and returns its value | `d.pop("age")` |
 | `.popitem()` | Removes & returns last inserted `(key, value)` | `d.popitem()` |
 | `.setdefault(k, d)`| Returns value if key exists, inserts default if not | `d.setdefault("role", "User")` |
+
+### 3. Set Operations & Methods
