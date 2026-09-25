@@ -61,3 +61,5 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | **Symmetric Diff**| `A ^ B` | `A.symmetric_difference(B)` | Elements in A or B, but NOT both |
 | **Subset Check** | `A <= B` | `A.issubset(B)` | `True` if all elements of A are in B |
 | **Superset Check**| `A >= B` | `A.issuperset(B)` | `True` if A contains all elements of B |
+
+### 4. Common Gotchas
