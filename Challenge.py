@@ -172,6 +172,12 @@ catalog = {
         "stock": 12,
         "tags": {"wireless", "gaming", "accessories", "rgb"}
     },
+    "P102": {
+        "title": "Ergonomic Office Chair",
+        "price": 180.0,
+        "stock": 4,
+        "tags": {"furniture", "office", "ergonomic"}
+    },
 
 }
 
