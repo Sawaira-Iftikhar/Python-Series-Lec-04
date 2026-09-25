@@ -17,7 +17,7 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 
 | File | Topics | Questions |
 |------|--------|:---------:|
-| `01_dictionary_and_nested.py` | Dict Creation, Keys Rules, Access & Nested Dictionaries |  08 |
-| `02_dictionary_methods.py` | Built-in Dict Methods (`get`, `pop`, `update`, `setdefault`, etc.) |  08 |
-| `03_sets_and_methods.py` | Set Basics, Set Methods & Mathematical Set Operations | 07 |
-| `04_challenge.py` | ALL Topics Mixed (Course Tracker, Store Inventory, Social Graph) | 03 |
+| [01_Dictionary_and_nested.py](01_Dictionary_and_nested.py) | Dict Creation, Keys Rules, Access & Nested Dictionaries |  08 |
+| [02_Dictionary_Methods.py](02_Dictionary_Methods.py) | Built-in Dict Methods (`get`, `pop`, `update`, `setdefault`, etc.) |  08 |
+| [02_Dictionary_Methods.py](03_sets_and_methods.py) | Set Basics, Set Methods & Mathematical Set Operations | 07 |
+| [04_challenge.py](04_challenge.py) | ALL Topics Mixed (Course Tracker, Store Inventory, Social Graph) | 03 |
