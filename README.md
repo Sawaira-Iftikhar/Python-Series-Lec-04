@@ -81,7 +81,7 @@ s.remove(99)   # ❌ Raises KeyError!
 ```
 </details>
 
-### 📅 Series Progress
+## 📅 Series Progress
 
  Lecture 01 — Basics, Data Types & Operators ✅
  Lecture 02 — Strings, Slicing & Conditionals ✅
@@ -93,7 +93,10 @@ s.remove(99)   # ❌ Raises KeyError!
  Lecture 08 — Coming Soon
  Lecture 09 — Coming Soon
 
- 🤝 Connect & Feedback
+ ## 🤝 Connect & Feedback
 If you found this helpful or have any questions:
 
 💬 Found a bug / Have a solution? Open an Issue or submit a Pull Request.
+
+## ⭐ Support
+If you find this repository helpful, please consider giving it a Star (⭐)! It helps others discover this learning roadmap.
