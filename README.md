@@ -92,3 +92,8 @@ s.remove(99)   # ❌ Raises KeyError!
  Lecture 07 — Coming Soon
  Lecture 08 — Coming Soon
  Lecture 09 — Coming Soon
+
+ 🤝 Connect & Feedback
+If you found this helpful or have any questions:
+
+💬 Found a bug / Have a solution? Open an Issue or submit a Pull Request.
