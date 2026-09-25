@@ -246,3 +246,13 @@ for product_id, title in any_matches:
 
 print()
 
+print(f"Total Inventory Value before discount: ${total_value:.2f}")
+
+print("-" * 50)
+print("Applying 10% discount to Gaming gear...")
+
+for product_id, price in gaming_products:
+    print(f"Updated {product_id} price: ${price:.2f}")
+
+print("=" * 50)
+
