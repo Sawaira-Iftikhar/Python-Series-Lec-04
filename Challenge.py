@@ -324,3 +324,6 @@ mutual_friends -= {"hamza", "ali"}
 
 # 2. Friend Recommendation for Ali
 recommended_friends = (hamza_friends - ali_friends) - {"ali"}
+
+# 3. Unique Connections
+exclusive_friends = hamza_friends ^ ali_friends
