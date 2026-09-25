@@ -239,3 +239,10 @@ for product_id, title, price in all_matches:
 
 print()
 
+print("Products matching ANY search tag:")
+
+for product_id, title in any_matches:
+    print(f"- {product_id}: {title}")
+
+print()
+
