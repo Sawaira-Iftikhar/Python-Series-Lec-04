@@ -47,8 +47,13 @@ students = {
         "name": "Zayd Malik",
         "skills": {"Python", "Machine Learning", "SQL", "Pandas"},
         "enrolled_courses": {"CS201", "AI401"}
-    }
-
-
-    
+    }  
 }
+
+job_role_skills = {
+    "Data Analyst": {"Python", "SQL", "Pandas"},
+    "Frontend Dev": {"HTML", "CSS", "JavaScript"}
+}
+
+
+
