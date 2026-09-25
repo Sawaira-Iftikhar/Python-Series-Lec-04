@@ -79,3 +79,6 @@ cs101_students = []
 for student_id, student in students.items():
     if "CS101" in student["enrolled_courses"]:
         cs101_students.append((student_id, student["name"]))
+
+# 5. Add Docker to Ali's skills
+students["STD_01"]["skills"].add("Docker")
