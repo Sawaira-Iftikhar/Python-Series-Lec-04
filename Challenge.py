@@ -217,3 +217,12 @@ total_value = 0
 for product in catalog.values():
     total_value += product["price"] * product["stock"]
 
+# 4. Apply 10% discount to gaming products
+
+gaming_products = []
+
+for product_id, product in catalog.items():
+    if "gaming" in product["tags"]:
+        product["price"] = product["price"] * 0.90
+        gaming_products.append((product_id, product["price"]))
+
