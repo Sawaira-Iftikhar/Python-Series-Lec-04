@@ -184,6 +184,11 @@ catalog = {
         "stock": 8,
         "tags": {"gaming", "rgb", "accessories", "keyboard"}
     },
-
+    "P104": {
+        "title": "USB-C Fast Charger",
+        "price": 25.0,
+        "stock": 20,
+        "tags": {"accessories", "charger", "mobile"}
+    }
 }
 
