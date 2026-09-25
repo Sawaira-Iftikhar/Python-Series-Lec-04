@@ -226,3 +226,5 @@ for product_id, product in catalog.items():
         product["price"] = product["price"] * 0.90
         gaming_products.append((product_id, product["price"]))
 
+# 5. Print report
+
