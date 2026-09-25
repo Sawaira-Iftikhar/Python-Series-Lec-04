@@ -39,3 +39,14 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | **Set** | `{1, 2}` | ❌ No | ✅ Yes | ❌ No Duplicates | ❌ No |
 
 ### 2. Most Used Dictionary Methods
+
+| Method | Description | Example |
+|--------|-------------|---------|
+| `.get(key, default)` | Safe retrieval without throwing `KeyError` | `d.get("age", 0)` |
+| `.keys()` | Returns a view of all keys | `d.keys()` |
+| `.values()` | Returns a view of all values | `d.values()` |
+| `.items()` | Returns a view of `(key, value)` tuples | `d.items()` |
+| `.update(dict2)` | Inserts or updates key-value pairs | `d.update({"city": "Lahore"})` |
+| `.pop(key)` | Removes key and returns its value | `d.pop("age")` |
+| `.popitem()` | Removes & returns last inserted `(key, value)` | `d.popitem()` |
+| `.setdefault(k, d)`| Returns value if key exists, inserts default if not | `d.setdefault("role", "User")` |
