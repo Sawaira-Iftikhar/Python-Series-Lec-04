@@ -178,6 +178,12 @@ catalog = {
         "stock": 4,
         "tags": {"furniture", "office", "ergonomic"}
     },
+    "P103": {
+        "title": "Mechanical RGB Keyboard",
+        "price": 85.0,
+        "stock": 8,
+        "tags": {"gaming", "rgb", "accessories", "keyboard"}
+    },
 
 }
 
