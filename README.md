@@ -52,3 +52,12 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | `.setdefault(k, d)`| Returns value if key exists, inserts default if not | `d.setdefault("role", "User")` |
 
 ### 3. Set Operations & Methods
+
+| Operation | Operator | Method | Description |
+|---|:---:|---|---|
+| **Union** | `A \| B` | `A.union(B)` | All unique elements from both sets |
+| **Intersection** | `A & B` | `A.intersection(B)` | Common elements only |
+| **Difference** | `A - B` | `A.difference(B)` | Elements in A but not in B |
+| **Symmetric Diff**| `A ^ B` | `A.symmetric_difference(B)` | Elements in A or B, but NOT both |
+| **Subset Check** | `A <= B` | `A.issubset(B)` | `True` if all elements of A are in B |
+| **Superset Check**| `A >= B` | `A.issuperset(B)` | `True` if A contains all elements of B |
