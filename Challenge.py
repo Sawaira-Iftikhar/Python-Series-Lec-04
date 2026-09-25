@@ -33,6 +33,12 @@ Tasks:
 """
 
 students = {
+    "STD_01": {
+        "name": "Ali Khan",
+        "skills": {"Python", "SQL", "Git"},
+        "enrolled_courses": {"CS101", "CS201"}
+    },
+
 
     
 }
