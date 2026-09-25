@@ -37,3 +37,5 @@ Lecture 04 of 9 — Python Dictionaries, Nested Dictionaries & Sets: Built-in Me
 | **Tuple** | `(1, 2)` | ✅ Yes | ❌ No | ✅ Allowed | ✅ Yes (`tup[0]`) |
 | **Dictionary** | `{"a": 1}` | ✅ Yes (3.7+) | ✅ Yes | ❌ Keys Unique | ❌ By Key only |
 | **Set** | `{1, 2}` | ❌ No | ✅ Yes | ❌ No Duplicates | ❌ No |
+
+### 2. Most Used Dictionary Methods
